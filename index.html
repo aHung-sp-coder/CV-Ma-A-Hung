@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giới thiệu bản thân - Má A Hùng</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url(/img.html/tau-vu-tru.jpg); /* hình nền khoa học tương lai */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+
+    h1, h2 {
+      text-align: center;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    }
+
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 0 12px;
+      padding: 10px 15px;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    section {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 800px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .polaroid {
+      width: 284px;
+      padding: 10px;
+      background: white;
+      border: 1px solid #BFBFBF;
+      box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      transform: rotate(0deg);
+      transition: transform 0.3s;
+    }
+
+    .polaroid:hover {
+      transform: scale(1.05);
+    }
+
+    .caption {
+      font-size: 14px;
+      color: #333;
+      margin-top: 8px;
+    }
+
+    .rotate_left {
+      transform: rotate(-5deg);
+    }
+
+    .rotate_right {
+      transform: rotate(5deg);
+    }
+
+    .rotate_center {
+      transform: rotate(0deg);
+    }
+    .contact-buttons {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .contact-buttons a {
+      display: inline-block;
+      margin: 10px 12px;
+      padding: 12px 20px;
+      background-color: rgba(255, 255, 255, 0.7);
+      color: #2c3e50;
+      text-decoration: none;
+      border: 1px solid #2980b9;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .contact-buttons a:hover {
+      background-color: #2980b9;
+      color: #fff;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Chào mừng bạn đến với trang cá nhân của Má A Hùng</h1>
+  
+  <nav>
+    <a href="#gioi-thieu">Giới thiệu</a>
+    <a href="#hoc-van">Học vấn</a>
+    <a href="#kinh-nghiem">Kinh nghiệm</a>
+    <a href="#ky-nang">Kỹ năng</a>
+    <a href="#muc-tieu">Mục tiêu</a>
+    <a href="#so-thich">Sở thích</a>
+  </nav>
+
+  <div class="gallery">
+    <div class="polaroid rotate_right">
+      <img src="/img.html/MA-A-HUNG-1.jpg" alt="MA-A-HUNG" width="100%">
+      <p class="caption">Thác Tắc Tịch</p>
+    </div>
+    <div class="polaroid rotate_center">
+      <img src="img.html/ma-a-hung.jpg" alt="Má A Hùng" width="100%">
+      <p class="caption">Má A Hùng</p>
+    </div>
+    <div class="polaroid rotate_left">
+      <img src="/img.html/MA-A-HUNG-3.jpg" alt="Cinque Terre" width="100%">
+      <p class="caption">Thác tác tịch</p>
+    </div>
+  </div>
+
+  <section id="gioi-thieu">
+    <h2>Giới thiệu bản thân</h2>
+    <p>Tôi là <strong>Má A Hùng</strong>, 22 tuổi, quê ở xã Sử Pán, huyện Sa Pa, tỉnh Lào Cai. Hiện sống tại Tả Van - phường Sa Pa. Tôi yêu thích du lịch, học hỏi và giao lưu với bạn bè khắp nơi.</p>
+  </section>
+
+  <section id="hoc-van">
+    <h2>Học vấn</h2>
+    <ul>
+      <li>Trình độ phổ thông: 12/12</li>
+      <li>Cao đẳng nghề: Dịch vụ du lịch và lữ hành</li>
+      <li>Kỹ năng máy tính văn phòng</li>
+      <li>Tiếng Anh cơ bản</li>
+    </ul>
+  </section>
+
+  <section id="kinh-nghiem">
+    <h2>Kinh nghiệm</h2>
+    <ul>
+      <li>Hơn 1 năm phục vụ nhà hàng</li>
+      <li>1 năm làm buồng phòng khách sạn</li>
+      <li>Trên 6 tháng làm lễ tân</li>
+      <li>Giao tiếp tiếng Anh cơ bản</li>
+      <li>Sử dụng thành thạo máy tính văn phòng</li>
+    </ul>
+  </section>
+
+  <section id="ky-nang">
+    <h2>Kỹ năng</h2>
+    <ul>
+      <li>Giao tiếp và chăm sóc khách hàng</li>
+      <li>Giải quyết tình huống tốt</li>
+      <li>Làm việc nhóm và độc lập hiệu quả</li>
+      <li>Thành thạo Word, Excel, PowerPoint</li>
+    </ul>
+  </section>
+
+  <section id="muc-tieu">
+    <h2>Mục tiêu nghề nghiệp</h2>
+    <p>Mong muốn phát triển trong lĩnh vực du lịch - khách sạn, nâng cao trình độ tiếng Anh, học hỏi thêm kinh nghiệm, và làm việc tại môi trường chuyên nghiệp quốc tế.</p>
+  </section>
+
+  <section id="so-thich">
+    <h2>Sở thích</h2>
+    <ul>
+      <li>Kết bạn, khám phá văn hóa</li>
+      <li>Du lịch và thiên nhiên</li>
+      <li>Chụp ảnh, nghe nhạc nhẹ</li>
+    </ul>
+  </section>
+  <div class="contact-buttons">
+  <a href="mailto:hungsupan@gmail.com">📧 Gửi Email</a>
+  <a href="https://zalo.me/0396737849" target="_blank">💬 Zalo</a>
+  <a href="https://facebook.com/hung.960399" target="_blank">📘 Facebook</a>
+  <a href="cv.pdf" download>📄 Tải CV</a>
+</div>
+
+
+</body>
+</html>
